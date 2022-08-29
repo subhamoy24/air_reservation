@@ -7,11 +7,10 @@ class ReservationsController < ApplicationController
     persons = params[:persons].to_i
     
     n = m.length
-    r = 0
-    c = 0
     r1 = 0
     c1 = 0
     i = 0
+    
     while i < n
       c1 += m[i][0]
       r1 = max(r1, m[i][1])
