@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# air_reservation
+
+## main code situated in reservations_controller and reservation concern and test cases have been written in  reservations_controllers_spec please check that out.
